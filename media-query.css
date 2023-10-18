@@ -1,0 +1,240 @@
+
+@media (max-width:991px) {
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size:1.2rem;
+    }
+    p{
+        font-size: 1.09rem;
+    }
+    .hero-img{
+        width:80%;
+    }
+    .course-div{
+        flex-basis:230px;
+    }
+    .services-icons img{
+        width: 11rem;  
+        }
+    .footer-container p{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width:767px){
+    p{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .nav-container{
+        flex-direction: column;
+        gap:10px;
+    }
+    .navbar ul li a {
+        font-size: 1.05rem;
+    }
+    .btn{
+        font-size: 1.05rem;
+        padding:10px 20px;
+    }
+    .common-container{
+        padding-block:30px;
+    }
+    .common-title{
+        font-size: 1.09rem;
+    }
+    .courses{
+        padding: 2rem;
+    }
+    .course-div{
+        flex-basis:200px;
+    }
+    .about-our-services{
+        gap:30px;
+    }
+    .our-services{
+        padding:20px 8px; 
+    }
+    .services-icons img{
+    width: 9.5rem;  
+    }
+    .footer-container p{
+        font-size: 0.9rem;
+    }
+    .footer-container a i {
+        font-size: 1.5rem;
+    }
+    .footer-container .footer-div .navbar-brand a>img {
+        width: 190px;
+        height: 35px;
+    }
+    .footer-copyright{
+        font-size: 0.6rem;
+    }
+    .about-section{
+        margin-block:2rem;
+    }
+    .choose-us{
+        margin-block:2rem 0;
+    }
+    .contact-container{
+        height: 300px;
+
+        & .contact-left{
+            gap:10px;
+        }
+    }
+    .last-section-grid{
+    flex-direction: column;
+
+        & .left-div{
+            gap:10px;
+            width:95%;
+            order:1;
+        }
+        & .right-align{
+            align-items: flex-start;
+            text-align: left;    
+        }
+        & .right-div{
+            display: flex;
+            width:95%;
+            gap:10px;
+            order:2;   
+        }
+        & .center-div {
+            width: 40%;
+            align-items: center;
+        }
+        .main-div{
+            margin-block:1.5rem 0; 
+        }    
+    }
+}
+
+@media (max-width:620px){
+    .hero-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hero-content{
+        width: 90%;
+    }
+    .hero-container .hero-img{
+        width:80%;
+        align-self: center;
+    }
+    .last-section-grid .center{
+        align-items: center;
+        text-align: center; 
+    }
+    .left-div, .right-div{
+        flex-direction: column;
+    }
+    .center-div {
+        width: 100%;
+        align-items: center;
+    }
+    .main-div{
+        margin-block:1.5rem 0; 
+    }
+    .contact-container{
+        bottom:-4.5rem;
+    }
+    footer {
+        padding-top:8rem;
+    }
+    .about-our-services{
+        flex-direction: column;
+        align-items: center;
+        gap:5px;
+    }
+    .our-services{
+        width:90%;
+    }
+    .footer .common-title{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:450px){
+    h1{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 0.95rem;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .btn{
+        font-size: 0.95rem;
+        padding:10px 20px;
+    }
+    .hero-content .hero-subheading{
+        font-size: 0.8rem;
+        padding-block: 1px;
+    }
+    .common-container{
+        padding-block:20px;
+    }
+    .common-subheading{
+        padding-top:6.5px;
+    }
+    .hero-img{
+        width:100%;
+    }
+    .navbar ul{
+        gap:0.8rem;
+    }
+    .navbar ul li a {
+        font-size: 0.8rem;
+    }
+    .course-div{
+        flex-basis: 500px;
+        padding:15px 10px;
+
+        & h2{
+            font-size: 1.2rem;
+        }
+    }
+    .contact-container{
+        flex-direction: column;
+        height: auto;
+        gap:10px;
+        padding-block:20px;
+    }
+    .our-services{
+        gap:7px;
+    }
+    .contact-left, .contact-right{
+        width: 85%;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-container .footer-div p{
+        padding-block:2px;
+        font-size: 0.85rem;
+    } 
+    .footer .common-title{
+        font-size: 0.9rem;
+    }
+}
